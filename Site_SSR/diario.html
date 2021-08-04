@@ -1,0 +1,43 @@
+<form action=diario.php method=POST>
+<h1> <p align = center>Diário Escolar</p> </h1>
+<p align=center><img src=escola2.jpg WIDTH=680 HEIGHT=315 ></p>
+<br>
+<br>
+<b>Notas Bimestrais: </b>
+<input type=text name=bim1>
+<input type=text name=bim2>
+<input type=text name=bim3>
+<input type=text name=bim4>
+<br>
+<br>
+<b>Calcular Notas: </b>
+<select name=calculos> Calcular notas
+<option value=soma> Somar notas dos bimestres
+<option value=media> Média das notas dos bimestres
+</select>
+<br>
+<br>
+<b>Atividades Desenvolvidas: </b>
+<input type=checkbox name=atividade[] value=prova> <i>Prova</i>
+<input type=checkbox name=atividade[] value=teste> <i>Teste</i>
+<input type=checkbox name=atividade[] value=trabalho> <i>Trabalho</i>
+<input type=checkbox name=atividade[] value=seminario> <i>Seminário</i>
+<br>
+<br>
+<fieldset>
+<legend> Observações: </legend>
+<b> As notas devem ser digitadas com valores  entre 0 e 10 </b>
+<br>
+<br>
+Cursos Associados:
+<ul>
+<li> Informática
+<li> Química
+<li> Letras
+</ul>
+</fieldset>
+<br>
+<input type=submit  value="Fechar Diário"> 
+<br>
+<input type=reset>
+</form>
